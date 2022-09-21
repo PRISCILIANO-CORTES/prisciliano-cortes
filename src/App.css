@@ -1,0 +1,50 @@
+.react-container {
+    text-align: center;
+}
+
+.react-logo {
+    pointer-events: none;
+    cursor: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .react-logo {
+        animation: react-logo-spin infinite 20s linear;
+    }
+}
+
+.react-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+@keyframes react-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.hideMenuNav {
+    display: none;
+}
+
+.showMenuNav {
+    display: block;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    background: rgb(249 250 251);
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
