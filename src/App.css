@@ -48,3 +48,28 @@
     justify-content: center;
     align-items: center;
 }
+
+.content {
+    /* display: inline-flex; */
+    border-bottom: 4px solid #EFEFEF;
+    border-radius: 5px;
+}
+
+.content img {
+    filter: drop-shadow(0px 0px 1px #4b4b50);
+    animation: movie 3s linear infinite;
+}
+
+@keyframes movie {
+    0%,
+    100% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-23px);
+    }
+}
+
+.content img {
+    animation-delay: .4s;
+}

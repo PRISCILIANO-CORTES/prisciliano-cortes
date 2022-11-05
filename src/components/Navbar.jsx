@@ -1,6 +1,7 @@
 import { useState } from "react";
-import Curriculum from '../assets/pdf/curriculum.pdf'
 import { Options } from "../data/Options";
+
+const Curriculum = 'https://drive.google.com/file/d/1KYs3QJhsZgoevkfOmM-QmhmmRKycPpq_/view'
 
 export const Navbar = () => {
 
@@ -50,20 +51,14 @@ export const Navbar = () => {
                             </div>
 
                             <div className="w-full space-y-2 border-sky-200 flex flex-col -ml-1 sm:flex-row lg:space-y-0 md:w-max lg:border-l">
-                                <a
-                                    href={Curriculum}
-                                    download="CURRICULUM VITAE" 
-                                    className="w-full py-2.5 px-5 text-center rounded-full transition active:bg-sky-200 focus:bg-sky-100 sm:w-max">
+                                <div
+                                    onClick={() => window.open(Curriculum, "_blank")} 
+                                    className="cursor-pointer w-full py-2.5 px-5 ml-2 mr-2 text-center rounded-full transition bg-gradient-to-b from-sky-400 to-cyan-300 active:from-sky-300 focus:from-cyan-400 sm:w-max">
                                     <span className="block text-sky-800 font-semibold lg:text-sm">
                                         Currículum
                                     </span>
-                                </a>
-                                <button  
-                                    className="w-full py-2.5 px-5 text-center rounded-full transition bg-gradient-to-b from-sky-400 to-cyan-300 active:from-sky-300 focus:from-cyan-400 sm:w-max">
-                                    <span className="block text-sky-900 font-semibold lg:text-sm">
-                                        Contáctame
-                                    </span>
-                                </button>
+                                </div>
+                               
                             </div>
                         </div>
                     </div>
@@ -89,22 +84,15 @@ export const Navbar = () => {
                     </div>
 
                     <div className="w-full space-y-2 border-sky-200 flex flex-col -ml-1 sm:flex-row lg:space-y-0 md:w-max lg:border-l">
-                        <a
-                            href={Curriculum}
-                            download="CURRICULUM VITAE" 
-                            className="w-full py-2.5 px-5 text-center rounded-full transition active:bg-sky-200 focus:bg-sky-100 sm:w-max"
+                        <div
+                            onClick={() => window.open(Curriculum, "_blank")}  
+                            className="cursor-pointer w-full py-2.5 px-5 text-center rounded-full transition bg-gradient-to-b from-sky-400 to-cyan-300 active:from-sky-300 focus:from-cyan-400 sm:w-max"
                         >
                             <span className="block text-sky-800 font-semibold lg:text-sm">
                                 Currículum
                             </span>
-                        </a>
-                        <button 
-                            className="w-full py-2.5 px-5 text-center rounded-full transition bg-gradient-to-b from-sky-400 to-cyan-300 active:from-sky-300 focus:from-cyan-400 sm:w-max"
-                        >
-                            <span className="block text-sky-900 font-semibold lg:text-sm">
-                                Contáctame
-                            </span>
-                        </button>
+                        </div>
+                        
                     </div>
                 </div>
             </div>

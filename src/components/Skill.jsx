@@ -16,7 +16,7 @@ export const Skill = () => {
                 {
                     skill.map( (skill) => (
                         <div key={skill.id} className="space-y-1 group">
-                            <div className="w-8 h-8 -mt-8 mx-auto overflow-hidden">
+                            <div className="content w-20 h-20 -mt-8 mx-auto">
                                 <img 
                                     className="w-full h-full object-fill scale-125 mx-auto transition duration-300 group-hover:scale-[1.4]" 
                                     src={ skill.link } 

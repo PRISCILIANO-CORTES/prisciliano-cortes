@@ -1,5 +1,5 @@
 import { Typewriter } from './Typewriter';
-import LogoReact from '../assets/icon/logo.svg';
+const LogoReact = 'https://drive.google.com/uc?export=view&id=1QBEsIKYp9dDwmVV4yctyckC1nfq4BVzD';
 
 export const Presentation = () => {
     return (
