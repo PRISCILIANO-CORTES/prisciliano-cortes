@@ -14,7 +14,6 @@
 
 ### **Lenguajes y herramientas**
 <div>
-<img src="https://github.com/devicons/devicon/blob/master/icons/php/php-original.svg" alt="PHP" width="40" height="40"/> 
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="Javascript" width="40" height="40"/>
 <img src="https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-original.svg" alt="Node JS" width="40" height="40"/> 
 <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original.svg" alt="React JS" width="40" height="40"/> 
